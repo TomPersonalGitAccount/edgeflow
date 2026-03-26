@@ -1,0 +1,13 @@
+{
+  "name": "edgeflow",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:worker": "npm run dev -w packages/edge-worker",
+    "dev:dashboard": "npm run dev -w packages/dashboard",
+    "deploy:worker": "npm run deploy -w packages/edge-worker",
+    "deploy:dashboard": "npm run deploy -w packages/dashboard"
+  }
+}

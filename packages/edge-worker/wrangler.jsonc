@@ -1,0 +1,12 @@
+{
+  "name": "edgeflow-edge",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-03-25",
+  "kv_namespaces": [
+    { "binding": "TENANT_CONFIG", "id": "783020a30b59418394a392e7d9e0ea33" },
+    { "binding": "USAGE_COUNTERS", "id": "ca555eca57bf435ea4c5adc8fe4024c9" }
+  ],
+  "triggers": {
+    "crons": ["7 * * * *"]
+  }
+}
