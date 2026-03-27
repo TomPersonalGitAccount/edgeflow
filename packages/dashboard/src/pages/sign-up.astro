@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { SignUp } from '@clerk/astro/components';
+---
+
+<Layout title="Sign Up">
+  <div class="container">
+    <SignUp />
+  </div>
+
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 24px;
+    }
+  </style>
+</Layout>

@@ -1,0 +1,22 @@
+{
+  "name": "@edgeflow/dashboard",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "deploy": "astro build && wrangler pages deploy dist",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^12.0.0",
+    "@clerk/astro": "^2.0.0",
+    "@edgeflow/shared": "*",
+    "astro": "^5.7.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
