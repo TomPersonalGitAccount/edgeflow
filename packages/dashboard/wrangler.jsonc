@@ -1,0 +1,13 @@
+{
+  "name": "edgeflow-dashboard",
+  "compatibility_date": "2025-03-25",
+  "compatibility_flags": ["nodejs_compat"],
+  "pages_build_output_dir": "dist",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "edgeflow-db",
+      "database_id": "094537ee-ba1a-4194-97cb-320e276b9f1d"
+    }
+  ]
+}
