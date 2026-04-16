@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.0.0",
-    "@clerk/astro": "^2.0.0",
+    "@clerk/astro": "^2.17.10",
     "@edgeflow/shared": "*",
     "astro": "^5.7.0",
     "stripe": "^21.0.1"
